@@ -15,7 +15,8 @@ function createMap () {
         lat: p.coords.latitude,
         lng: p.coords.longitude
       };
-
+      console.log(position.lat);
+      console.log(position.lng);
       infoWindow.setPosition(position);
       infoWindow.setContent('Your location!');
       infoWindow.open(map);
@@ -33,3 +34,5 @@ function handleLocationError (content, position) {
   infoWindow.setContent(content);
   infoWindow.open(map);
 }
+
+//Here we have used geolocation feature of Google Map API
