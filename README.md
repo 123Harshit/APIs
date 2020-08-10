@@ -1,2 +1,2 @@
 # API
-This contains all the files that contains APIs for specific work
+Google Map API ready to be integrated with any project. 
